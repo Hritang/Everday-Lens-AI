@@ -1,0 +1,25 @@
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.keystore
+*.jks
+
+# Dependencies
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+
+# Generated files
+.expo/
+.gradle/
+**/build/
+expo-seed-temp/
+mobile/android/.gradle/
+mobile/android/local.properties
+
+# Android signing
+mobile/android/app/*.keystore
+mobile/android/app/*.jks

@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+python-multipart
+pillow
+google-genai>=1.68,<3
+httpx
+python-dotenv
+rapidocr>=3.10,<4
+onnxruntime>=1.24,<2
+opencv-python-headless
